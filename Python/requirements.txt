@@ -1,0 +1,7 @@
+# Dependencias de Python para "Alegratech Document Converter".
+# Se instalan dentro del entorno de Python portable embebido (Python/) durante el proceso de
+# construccion del instalador; el usuario final nunca ejecuta este archivo manualmente.
+#
+# [all] incluye el soporte para PDF, Word, PowerPoint, Excel, imagenes (OCR/EXIF) y audio
+# (transcripcion), cubriendo todos los formatos solicitados por la aplicacion.
+markitdown[all]>=0.1.7
