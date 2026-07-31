@@ -1,0 +1,14 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                     xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <!-- Familia tipográfica principal, alineada con la fuente por defecto de Windows 11 / Office -->
+    <FontFamily x:Key="PrimaryFontFamily">Segoe UI Variable, Segoe UI, Arial</FontFamily>
+
+    <system:Double x:Key="FontSizeTitle">26</system:Double>
+    <system:Double x:Key="FontSizeSubtitle">14</system:Double>
+    <system:Double x:Key="FontSizeHeading">15</system:Double>
+    <system:Double x:Key="FontSizeBody">13</system:Double>
+    <system:Double x:Key="FontSizeCaption">11.5</system:Double>
+
+</ResourceDictionary>

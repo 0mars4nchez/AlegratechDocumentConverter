@@ -1,0 +1,49 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- ==================================================================================
+         Paleta de colores "Alegratech Document Converter" - Modo claro (Fluent Design).
+         Inspirada en Microsoft Office 365 / Visual Studio: blancos, azules y grises claros.
+         =================================================================================== -->
+
+    <!-- Azules de marca -->
+    <Color x:Key="PrimaryBlueColor">#0078D4</Color>
+    <Color x:Key="PrimaryBlueDarkColor">#005A9E</Color>
+    <Color x:Key="PrimaryBlueLightColor">#2B88D8</Color>
+    <Color x:Key="AccentLightBlueColor">#E5F1FB</Color>
+
+    <!-- Neutros -->
+    <Color x:Key="WhiteColor">#FFFFFF</Color>
+    <Color x:Key="LightGrayColor">#F3F2F1</Color>
+    <Color x:Key="LighterGrayColor">#FAF9F8</Color>
+    <Color x:Key="MediumGrayColor">#C8C6C4</Color>
+    <Color x:Key="BorderGrayColor">#E1DFDD</Color>
+    <Color x:Key="DarkGrayColor">#605E5C</Color>
+    <Color x:Key="TextPrimaryColor">#201F1E</Color>
+    <Color x:Key="TextSecondaryColor">#605E5C</Color>
+
+    <!-- Estados -->
+    <Color x:Key="SuccessColor">#107C10</Color>
+    <Color x:Key="ErrorColor">#D13438</Color>
+    <Color x:Key="WarningColor">#FF8C00</Color>
+
+    <!-- Brushes -->
+    <SolidColorBrush x:Key="PrimaryBlueBrush" Color="{StaticResource PrimaryBlueColor}"/>
+    <SolidColorBrush x:Key="PrimaryBlueDarkBrush" Color="{StaticResource PrimaryBlueDarkColor}"/>
+    <SolidColorBrush x:Key="PrimaryBlueLightBrush" Color="{StaticResource PrimaryBlueLightColor}"/>
+    <SolidColorBrush x:Key="AccentLightBlueBrush" Color="{StaticResource AccentLightBlueColor}"/>
+
+    <SolidColorBrush x:Key="WhiteBrush" Color="{StaticResource WhiteColor}"/>
+    <SolidColorBrush x:Key="LightGrayBrush" Color="{StaticResource LightGrayColor}"/>
+    <SolidColorBrush x:Key="LighterGrayBrush" Color="{StaticResource LighterGrayColor}"/>
+    <SolidColorBrush x:Key="MediumGrayBrush" Color="{StaticResource MediumGrayColor}"/>
+    <SolidColorBrush x:Key="BorderGrayBrush" Color="{StaticResource BorderGrayColor}"/>
+    <SolidColorBrush x:Key="DarkGrayBrush" Color="{StaticResource DarkGrayColor}"/>
+    <SolidColorBrush x:Key="TextPrimaryBrush" Color="{StaticResource TextPrimaryColor}"/>
+    <SolidColorBrush x:Key="TextSecondaryBrush" Color="{StaticResource TextSecondaryColor}"/>
+
+    <SolidColorBrush x:Key="SuccessBrush" Color="{StaticResource SuccessColor}"/>
+    <SolidColorBrush x:Key="ErrorBrush" Color="{StaticResource ErrorColor}"/>
+    <SolidColorBrush x:Key="WarningBrush" Color="{StaticResource WarningColor}"/>
+
+</ResourceDictionary>
