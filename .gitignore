@@ -1,0 +1,23 @@
+# Build outputs
+bin/
+obj/
+publish/
+dist/
+
+# Entorno de Python embebido generado por setup_python_embed.ps1 (no se versiona: se
+# reconstruye a partir de Python/requirements.txt y Python/setup_python_embed.ps1)
+Python/Lib/
+Python/Scripts/
+Python/*.dll
+Python/*.exe
+Python/*.zip
+Python/*._pth
+Python/python*.zip
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Otros
+*.log
